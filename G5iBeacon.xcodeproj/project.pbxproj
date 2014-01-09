@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040991F1187DC50F00E85A21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040991F0187DC50F00E85A21 /* Foundation.framework */; };
+		040991F3187DC50F00E85A21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040991F2187DC50F00E85A21 /* CoreGraphics.framework */; };
+		040991F5187DC50F00E85A21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040991F4187DC50F00E85A21 /* UIKit.framework */; };
+		04099210187DC51000E85A21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0409920F187DC51000E85A21 /* XCTest.framework */; };
+		04099211187DC51000E85A21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040991F0187DC50F00E85A21 /* Foundation.framework */; };
+		04099212187DC51000E85A21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040991F4187DC50F00E85A21 /* UIKit.framework */; };
+		0409921A187DC51000E85A21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04099218187DC51000E85A21 /* InfoPlist.strings */; };
+		0409921C187DC51000E85A21 /* G5iBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409921B187DC51000E85A21 /* G5iBeaconTests.m */; };
+		0409923A187E763900E85A21 /* GIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04099228187E763900E85A21 /* GIAppDelegate.m */; };
+		0409923B187E763900E85A21 /* GIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409922B187E763900E85A21 /* GIViewController.m */; };
+		0409923D187E763900E85A21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04099234187E763900E85A21 /* InfoPlist.strings */; };
+		0409923E187E763900E85A21 /* G5iBeacon-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04099236187E763900E85A21 /* G5iBeacon-Info.plist */; };
+		0409923F187E763900E85A21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04099238187E763900E85A21 /* Images.xcassets */; };
+		04099240187E763900E85A21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04099239187E763900E85A21 /* main.m */; };
+		04099243187E7B4000E85A21 /* GICentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04099242187E7B4000E85A21 /* GICentralViewController.m */; };
+		04099244187E7B4000E85A21 /* GICentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04099242187E7B4000E85A21 /* GICentralViewController.m */; };
+		04099247187E7B7C00E85A21 /* GIPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04099246187E7B7C00E85A21 /* GIPeripheralViewController.m */; };
+		04099248187E7B7C00E85A21 /* GIPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04099246187E7B7C00E85A21 /* GIPeripheralViewController.m */; };
+		0409924B187E7BA900E85A21 /* GISettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409924A187E7BA900E85A21 /* GISettingViewController.m */; };
+		0409924C187E7BA900E85A21 /* GISettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409924A187E7BA900E85A21 /* GISettingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04099213187DC51000E85A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040991E5187DC50F00E85A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040991EC187DC50F00E85A21;
+			remoteInfo = G5iBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040991ED187DC50F00E85A21 /* G5iBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G5iBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040991F0187DC50F00E85A21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		040991F2187DC50F00E85A21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		040991F4187DC50F00E85A21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0409920E187DC51000E85A21 /* G5iBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = G5iBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0409920F187DC51000E85A21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04099217187DC51000E85A21 /* G5iBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "G5iBeaconTests-Info.plist"; sourceTree = "<group>"; };
+		04099219187DC51000E85A21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0409921B187DC51000E85A21 /* G5iBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G5iBeaconTests.m; sourceTree = "<group>"; };
+		04099227187E763900E85A21 /* GIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIAppDelegate.h; sourceTree = "<group>"; };
+		04099228187E763900E85A21 /* GIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIAppDelegate.m; sourceTree = "<group>"; };
+		0409922A187E763900E85A21 /* GIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIViewController.h; sourceTree = "<group>"; };
+		0409922B187E763900E85A21 /* GIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIViewController.m; sourceTree = "<group>"; };
+		04099233187E763900E85A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04099235187E763900E85A21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04099236187E763900E85A21 /* G5iBeacon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "G5iBeacon-Info.plist"; sourceTree = "<group>"; };
+		04099237187E763900E85A21 /* G5iBeacon-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "G5iBeacon-Prefix.pch"; sourceTree = "<group>"; };
+		04099238187E763900E85A21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04099239187E763900E85A21 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04099241187E7B4000E85A21 /* GICentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GICentralViewController.h; sourceTree = "<group>"; };
+		04099242187E7B4000E85A21 /* GICentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GICentralViewController.m; sourceTree = "<group>"; };
+		04099245187E7B7C00E85A21 /* GIPeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIPeripheralViewController.h; sourceTree = "<group>"; };
+		04099246187E7B7C00E85A21 /* GIPeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIPeripheralViewController.m; sourceTree = "<group>"; };
+		04099249187E7BA900E85A21 /* GISettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GISettingViewController.h; sourceTree = "<group>"; };
+		0409924A187E7BA900E85A21 /* GISettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GISettingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040991EA187DC50F00E85A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040991F3187DC50F00E85A21 /* CoreGraphics.framework in Frameworks */,
+				040991F5187DC50F00E85A21 /* UIKit.framework in Frameworks */,
+				040991F1187DC50F00E85A21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0409920B187DC51000E85A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04099210187DC51000E85A21 /* XCTest.framework in Frameworks */,
+				04099212187DC51000E85A21 /* UIKit.framework in Frameworks */,
+				04099211187DC51000E85A21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040991E4187DC50F00E85A21 = {
+			isa = PBXGroup;
+			children = (
+				040991F6187DC50F00E85A21 /* G5iBeacon */,
+				040991EF187DC50F00E85A21 /* Frameworks */,
+				040991EE187DC50F00E85A21 /* Products */,
+				04099215187DC51000E85A21 /* G5iBeaconTests */,
+			);
+			sourceTree = "<group>";
+		};
+		040991EE187DC50F00E85A21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040991ED187DC50F00E85A21 /* G5iBeacon.app */,
+				0409920E187DC51000E85A21 /* G5iBeaconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040991EF187DC50F00E85A21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040991F0187DC50F00E85A21 /* Foundation.framework */,
+				040991F2187DC50F00E85A21 /* CoreGraphics.framework */,
+				040991F4187DC50F00E85A21 /* UIKit.framework */,
+				0409920F187DC51000E85A21 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		040991F6187DC50F00E85A21 /* G5iBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				04099225187E763900E85A21 /* Classess */,
+				0409922E187E763900E85A21 /* Library */,
+				0409922F187E763900E85A21 /* Resources */,
+			);
+			path = G5iBeacon;
+			sourceTree = "<group>";
+		};
+		04099215187DC51000E85A21 /* G5iBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				0409921B187DC51000E85A21 /* G5iBeaconTests.m */,
+				04099216187DC51000E85A21 /* Supporting Files */,
+			);
+			path = G5iBeaconTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		04099216187DC51000E85A21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04099217187DC51000E85A21 /* G5iBeaconTests-Info.plist */,
+				04099218187DC51000E85A21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04099225187E763900E85A21 /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				04099226187E763900E85A21 /* AppControllers */,
+				04099229187E763900E85A21 /* Controllers */,
+				0409922C187E763900E85A21 /* Models */,
+				0409922D187E763900E85A21 /* Views */,
+			);
+			path = Classess;
+			sourceTree = "<group>";
+		};
+		04099226187E763900E85A21 /* AppControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04099227187E763900E85A21 /* GIAppDelegate.h */,
+				04099228187E763900E85A21 /* GIAppDelegate.m */,
+			);
+			path = AppControllers;
+			sourceTree = "<group>";
+		};
+		04099229187E763900E85A21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0409922A187E763900E85A21 /* GIViewController.h */,
+				0409922B187E763900E85A21 /* GIViewController.m */,
+				04099241187E7B4000E85A21 /* GICentralViewController.h */,
+				04099242187E7B4000E85A21 /* GICentralViewController.m */,
+				04099245187E7B7C00E85A21 /* GIPeripheralViewController.h */,
+				04099246187E7B7C00E85A21 /* GIPeripheralViewController.m */,
+				04099249187E7BA900E85A21 /* GISettingViewController.h */,
+				0409924A187E7BA900E85A21 /* GISettingViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0409922C187E763900E85A21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0409922D187E763900E85A21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0409922E187E763900E85A21 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0409922F187E763900E85A21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04099230187E763900E85A21 /* images */,
+				04099231187E763900E85A21 /* Supporting Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04099230187E763900E85A21 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		04099231187E763900E85A21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04099232187E763900E85A21 /* Main.storyboard */,
+				04099234187E763900E85A21 /* InfoPlist.strings */,
+				04099236187E763900E85A21 /* G5iBeacon-Info.plist */,
+				04099237187E763900E85A21 /* G5iBeacon-Prefix.pch */,
+				04099238187E763900E85A21 /* Images.xcassets */,
+				04099239187E763900E85A21 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040991EC187DC50F00E85A21 /* G5iBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0409921F187DC51000E85A21 /* Build configuration list for PBXNativeTarget "G5iBeacon" */;
+			buildPhases = (
+				040991E9187DC50F00E85A21 /* Sources */,
+				040991EA187DC50F00E85A21 /* Frameworks */,
+				040991EB187DC50F00E85A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = G5iBeacon;
+			productName = G5iBeacon;
+			productReference = 040991ED187DC50F00E85A21 /* G5iBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0409920D187DC51000E85A21 /* G5iBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04099222187DC51000E85A21 /* Build configuration list for PBXNativeTarget "G5iBeaconTests" */;
+			buildPhases = (
+				0409920A187DC51000E85A21 /* Sources */,
+				0409920B187DC51000E85A21 /* Frameworks */,
+				0409920C187DC51000E85A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04099214187DC51000E85A21 /* PBXTargetDependency */,
+			);
+			name = G5iBeaconTests;
+			productName = G5iBeaconTests;
+			productReference = 0409920E187DC51000E85A21 /* G5iBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040991E5187DC50F00E85A21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GI;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "MAI THE TAI";
+				TargetAttributes = {
+					0409920D187DC51000E85A21 = {
+						TestTargetID = 040991EC187DC50F00E85A21;
+					};
+				};
+			};
+			buildConfigurationList = 040991E8187DC50F00E85A21 /* Build configuration list for PBXProject "G5iBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040991E4187DC50F00E85A21;
+			productRefGroup = 040991EE187DC50F00E85A21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040991EC187DC50F00E85A21 /* G5iBeacon */,
+				0409920D187DC51000E85A21 /* G5iBeaconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040991EB187DC50F00E85A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0409923E187E763900E85A21 /* G5iBeacon-Info.plist in Resources */,
+				0409923F187E763900E85A21 /* Images.xcassets in Resources */,
+				0409923D187E763900E85A21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0409920C187DC51000E85A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0409921A187DC51000E85A21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040991E9187DC50F00E85A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04099243187E7B4000E85A21 /* GICentralViewController.m in Sources */,
+				0409923B187E763900E85A21 /* GIViewController.m in Sources */,
+				0409923A187E763900E85A21 /* GIAppDelegate.m in Sources */,
+				0409924B187E7BA900E85A21 /* GISettingViewController.m in Sources */,
+				04099247187E7B7C00E85A21 /* GIPeripheralViewController.m in Sources */,
+				04099240187E763900E85A21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0409920A187DC51000E85A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04099244187E7B4000E85A21 /* GICentralViewController.m in Sources */,
+				0409924C187E7BA900E85A21 /* GISettingViewController.m in Sources */,
+				0409921C187DC51000E85A21 /* G5iBeaconTests.m in Sources */,
+				04099248187E7B7C00E85A21 /* GIPeripheralViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04099214187DC51000E85A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040991EC187DC50F00E85A21 /* G5iBeacon */;
+			targetProxy = 04099213187DC51000E85A21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04099218187DC51000E85A21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04099219187DC51000E85A21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04099232187E763900E85A21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04099233187E763900E85A21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04099234187E763900E85A21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04099235187E763900E85A21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0409921D187DC51000E85A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0409921E187DC51000E85A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04099220187DC51000E85A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "G5iBeacon/Resources/Supporting Files/G5iBeacon-Prefix.pch";
+				INFOPLIST_FILE = "G5iBeacon/Resources/Supporting Files/G5iBeacon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C0D83362-FD5C-4552-A9C5-55B04A860FBF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04099221187DC51000E85A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "G5iBeacon/Resources/Supporting Files/G5iBeacon-Prefix.pch";
+				INFOPLIST_FILE = "G5iBeacon/Resources/Supporting Files/G5iBeacon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C0D83362-FD5C-4552-A9C5-55B04A860FBF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04099223187DC51000E85A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/G5iBeacon.app/G5iBeacon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "G5iBeacon/G5iBeacon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "G5iBeaconTests/G5iBeaconTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04099224187DC51000E85A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/G5iBeacon.app/G5iBeacon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "G5iBeacon/G5iBeacon-Prefix.pch";
+				INFOPLIST_FILE = "G5iBeaconTests/G5iBeaconTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040991E8187DC50F00E85A21 /* Build configuration list for PBXProject "G5iBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0409921D187DC51000E85A21 /* Debug */,
+				0409921E187DC51000E85A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0409921F187DC51000E85A21 /* Build configuration list for PBXNativeTarget "G5iBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04099220187DC51000E85A21 /* Debug */,
+				04099221187DC51000E85A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04099222187DC51000E85A21 /* Build configuration list for PBXNativeTarget "G5iBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04099223187DC51000E85A21 /* Debug */,
+				04099224187DC51000E85A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040991E5187DC50F00E85A21 /* Project object */;
+}
